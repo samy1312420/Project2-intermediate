@@ -1,8 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 .block-1 {
   display: flex;
   justify-content: space-between;
   margin-left: 8%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
 .block-2 {
   display: flex;
@@ -13,6 +19,7 @@
   font-size: 8px;
   text-decoration: none;
   margin-top: 1%;
+  margin-bottom: 1%;
 }
 .view {
   display: flex;
@@ -47,15 +54,18 @@ button {
   margin-top: 5%;
   background-color: blueviolet;
   color: white;
+ 
 }
 .hero-img {
   width: 55%;
   margin-left: 14px;
+  margin-bottom: -100px;
 }
 .container {
   display: flex;
   background-color: blueviolet;
   padding: 30px;
+
 }
 .block-2:hover {
   color: green;
@@ -67,4 +77,7 @@ button {
   .hero-img {
     margin-top:5%;
   }
+}
+.bild-1 {
+
 }
