@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+}
+body {
   position: relative;
 }
 
@@ -76,18 +78,41 @@ button {
   }
   .hero-img {
     margin-top: 5%;
+    z-index: 2;
+    position: relative;
+  }
+  .icon {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .findout {
+    flex-direction: column;
+  }
+  .bottom-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bottom-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .bottom-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
 }
 .bild-1 {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 .bild-2 {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 100%;
+  bottom: -300px;
+  height: 700px;
 }
 .bild-2 img {
   height: 100%;
@@ -99,7 +124,7 @@ button {
 }
 .icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 6%;
   gap: 10%;
   padding-right: 15%;
@@ -118,8 +143,8 @@ button {
 .findout {
   display: flex;
   justify-content: space-between;
-  margin: 7%;
-  padding: 8%;
+  margin: 8%;
+  padding: 5%;
   background-color: blueviolet;
   position: relative;
 }
@@ -143,4 +168,46 @@ button {
 }
 .bild-3 img {
   height: 100%;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.foot-2 a {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.bottom {
+  position: relative;
+  background-color: rgb(236, 244, 244);
+  padding: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.bild-4 {
+  position: absolute;
+  top: 0;
+}
+.bild-4 img {
+  height: 100%;
+}
+.bottom-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
 }
